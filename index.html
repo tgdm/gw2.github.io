@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
 <body>
-<h1>TEST PAGE, PLEASE IGNORE</h1>
-<p>Mistakes are actively being made.</p>
+<div id="Testing" class="center">
+		<h1>TEST PAGE, PLEASE IGNORE</h1>
+		<p>Mistakes are actively being made.</p>
+</div>
+<button class="tablink" onclick="openBuild('StandardStaff', this, '#3b8ebe')" id="defaultOpen">Standard Staff Weaver</button>
+<button class="tablink" onclick="openBuild('PickBuild', this, '#e85080')">Fresh Air Weaver</button>
+
+<div id="StandardStaff" class="tabcontent">
+  <h3>Standard Staff Weaver</h3>
+  <p>This is the standard Staff zerg build.</p>
+</div>
+
+<div id="PickBuild" class="tabcontent">
+  <h3>Fresh Air Weaver</h3>
+  <p>This is the standard Scepter/Focus pick build.</p> 
+</div>
+<script src="assets/js/tabs.js"></script>
 </body>
-</html>
+</html> 
