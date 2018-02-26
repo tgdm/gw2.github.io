@@ -8,10 +8,25 @@ html, body {
 	height: 100%;
 }    
 /*remove line under link*/ 
-a.nounderline:link  
+a
 {  
- text-decoration:none!important;  
-}  
+ color: #e6ac00;
+ text-decoration:none!important;
+}
+
+a:hover
+{  
+ color: #cc9900;
+ text-decoration:none!important;
+}
+
+h2 {
+    text-shadow: 1px 0px #333;
+	background-color: rgba(51, 51, 51, 0.2);
+	height: 40px;
+	line-height: 40px;
+}
+
     
 body {
     font-family: 'Montserrat';
@@ -58,7 +73,7 @@ padding: 10px;
 
 /* Change background color of buttons on hover */
 .tablink:hover {
-    background-color: #777;
+    background-color: #cc9900;
 }
 
 /* Set default styles for tab content */
@@ -72,14 +87,19 @@ padding: 10px;
 
 /* Style each tab content individually */
 #StandardStaff {background-color:#3b8ebe;}
-#PickBuild {background-color:#e85080;}
+#PickBuild {background-color:#e84a7c;}
 
-aside {
+asideleft {
     float: left;
-    max-width: 50%;
+    width: 50%;
     margin: 0;
     padding: 2em;
     overflow: hidden;
+}
+
+asideright {
+    margin-left: 50%;
+	overflow: hidden;
 }
 
 .center {
