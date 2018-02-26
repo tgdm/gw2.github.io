@@ -1,13 +1,14 @@
+/*body doc stuff*/ 
+
 html { 
 		background: url('../background.jpg') no-repeat center fixed;
         background-size: cover;
 		background-color: #4d4d4d;
     }
 html, body {
-    min-width: 1075px;
-	height: 100%;
+    min-width: 900px;
 }    
-/*remove line under link*/ 
+/*cosmetic stuff for text*/ 
 a
 {  
  color: #e6ac00;
@@ -26,7 +27,6 @@ h2 {
 	height: 40px;
 	line-height: 40px;
 }
-
     
 body {
     font-family: 'Montserrat';
@@ -38,27 +38,30 @@ body {
   box-sizing: border-box;
   }
   
-.gw2a-items-embed{
-margin: 5px;
+/*custom divs*/   
+
+.center {
+    margin: auto;
+    text-align: center;
+	width: 66%;
+    padding: 10px;
 }
  
 .containers{
-position: relative;
-top: 50px;
+	position: relative;
+	top: 50px;
 }
 .container{
-min-width:900px;
+	min-width:900px;
 }			
-.tab_content { 
-padding: 10px;
-
+/* inline embed science */
+.gw2a-embed{
+	display: inline-block;
+	vertical-align: bottom;
+	padding-left: 1px;
 }
 
-.tabs {
-	margin-left: -40px;
-}
-
-/* Style the tab buttons */
+/*tab styles*/ 
 .tablink {
     background-color: #333333;
     color: white;
@@ -71,12 +74,10 @@ padding: 10px;
     width: 50%;
 }
 
-/* Change background color of buttons on hover */
 .tablink:hover {
     background-color: #cc9900;
 }
 
-/* Set default styles for tab content */
 .tabcontent {
     color: white;
     display: none;
@@ -85,7 +86,7 @@ padding: 10px;
     text-align: center;
 }
 
-/* Style each tab content individually */
+/* style each tab content manually */
 #StandardStaff {background-color:#3b8ebe;}
 #PickBuild {background-color:#e84a7c;}
 
@@ -102,9 +103,3 @@ asideright {
 	overflow: hidden;
 }
 
-.center {
-    margin: auto;
-    text-align: center;
-	width: 66%;
-    padding: 10px;
-}
