@@ -8,7 +8,7 @@
 <body>
 	<!--start of main body  -->
 	<div class="center_header">
-		<h1>A Terrible WvW Guide for Elementalists</h1>
+		<h1 id="top">A Terrible WvW Guide for Elementalists</h1>
 		<img src="assets/class_icons/icon_Elementalist.png">
 	</div>
 	<button class="tablink" onclick="openBuild('StandardStaff', this, '#3b8ebe')" id="defaultOpen">Standard Staff Weaver</button>
@@ -16,7 +16,7 @@
 
 	<div id="StandardStaff" class="tabcontent">
 		<img src="assets/class_icons/spec_Fire.png"><img src="assets/class_icons/spec_Air.png"><img src="assets/class_icons/spec_Weaver.png">
-		<p><em>This is the standard Staff zerg build. If this page breaks for you, try the <a href="http://en.gw2skills.net/editor/?vFAQFAWnMMANNg94CeOA8RgFBA7+VPrv1CXyQQKIIAUAOAA-j1RBQBXR5nZUCmQ1fox+DL4CAkPdAA4BAMPIAYBArqUVVVSBYuyI-w">gw2skills.net</a> link.</em></p>
+		<p><em>This is the standard Staff zerg build. If this page breaks for you, try the <b><a href="http://en.gw2skills.net/editor/?vFAQFAWnMMANNg94CeOA8RgFBA7+VPrv1CXyQQKIIAUAOAA-j1RBQBXR5nZUCmQ1fox+DL4CAkPdAA4BAMPIAYBArqUVVVSBYuyI-w">gw2skills.net</a></b> link.</em></p>
 		<h2>Gear</h2>
 		<div class="tabcontent_content">
 			<div class="center">
@@ -50,14 +50,13 @@
 
 				<!--
 		  <span style="color:#e6ac00"><b>Berserker</b></span>-->can work if you feel comfortable with the loss in health. The difference between <span style="color:#e6ac00"><b>Marauder</b></span> and <span style="color:#e6ac00"><b>Berserker</b></span> is you are trading Ferocity, Precision, and Vitality -
-				<span
-				  style="color:#e6ac00"><b>Marauder</b></span> offers health, higher critical hit chance, but lower critical damage at the <em>same</em> power strength.<br>
-					<br> For your trinkets and back item, stick with <span style="color:#e6ac00"><b>Berserker</b></span> stats. If you have the resources, go for 18x
+				<span style="color:#e6ac00"><b>Marauder</b></span> offers health, higher critical hit chance, but lower critical damage at the <em>same</em> power strength.<br>
+				<br> For your trinkets and back item, stick with <span style="color:#e6ac00"><b>Berserker</b></span> stats. If you have the resources, go for 18x
 
-					<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="37131" data-armory-inline-text="wiki">
-					</div>
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="37131" data-armory-inline-text="wiki">
+				</div>
 
-					<!--<span style="color:#e6ac00"><b>Mighty (+5 Power) Infusions</b></span>-->(or equivalent of choice with +power).<br>
+				<!--<span style="color:#e6ac00"><b>Mighty (+5 Power) Infusions</b></span>-->(or equivalent of choice with +power).<br>
 			</div>
 		</div>
 
@@ -108,7 +107,7 @@
 				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="24575" data-armory-inline-text="wiki">
 				</div>
 
-				<!--<b><a href="https://wiki.guildwars2.com/wiki/Superior_Sigil_of_Bloodlust">Bloodlust</a></b>-->, you might want to try filling out your second upgrade slot with
+				<!--<b><a href="https://wiki.guildwars2.com/wiki/Superior_Sigil_of_Bloodlust">Bloodlust</a></b>-->, though you might want to try filling out your second upgrade slot with
 
 				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="24554" data-armory-inline-text="wiki">
 				</div>
@@ -226,7 +225,23 @@
 				</div>
 
 				<!--
-		  <b><a href="https://wiki.guildwars2.com/wiki/Conjure_Fiery_Greatsword">Conjure Fiergy Greatsword</a></b>-->offers some more burst damage if you're caught on rotation or need an escape tool.
+		  <b><a href="https://wiki.guildwars2.com/wiki/Conjure_Fiery_Greatsword">Conjure Fiergy Greatsword</a></b>-->offers some more burst damage if you're caught on rotation or need an escape tool. Use
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5517" data-armory-inline-text="wiki">
+				</div>
+
+				(#5) for AoE damage at 600 range. Use
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5697" data-armory-inline-text="wiki">
+				</div>
+
+				(#3) to cleave through downs or to give yourself evade frames. Sparingly use
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5517" data-armory-inline-text="wiki">
+				</div>
+
+				(#4) to close gaps on a target or travel in a direction without a target.
+
 			</div>
 		</div>
 
@@ -331,7 +346,21 @@
 
 		<h2>General Play</h2>
 		<div class="tabcontent_content">
-			Primary damage attunement will be
+			First things first: you're going to want to adjust some gameplay settings to ensure you get the most bang for you buck. Under General Options, look for the "Combat/Movement" section and make sure the following settings are set:
+			<ul>
+				<li>Autotargeting: DISABLED</li>
+				<li>Allow Skill Retargeting: ENABLED</li>
+			</ul>
+			It's up to you if you want to try to Lock or Snap ground targeting, but I highly recommend the two above settings. Autotargeting will be a problem with movement-based abilities and might turn you to face a direction you do not want to be going in. Skill
+			Retargeting is incredibly useful when it comes to abilities with cast or channel times, such as
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5491" data-armory-inline-text="wiki">
+			</div>
+
+			. Without having Skill Retargeting enabled, your abilities will start and finish on the target you initially had targeted - or on nothing if you had nothing targeted. It is much easier to cleave down targets while running or shifting to a priority target
+			with this setting enabled.<br>
+
+			<br>Primary damage attunement will be
 
 			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
 			</div>
@@ -404,7 +433,8 @@
 			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5491" data-armory-inline-text="wiki">
 			</div>
 
-			to roll out damage on up to 3 targets in a 180 radius. All of the other attunement #1 skills are inferior by comparison. Staff Elementalist / Weaver is now the type of class you use every cooldown on - there are many skills simply not worth the time it takes to cast them simply because Fireball is just that strong. <br>
+			to roll out damage on up to 3 targets in a 180 radius. All of the other attunement #1 skills are inferior by comparison. Staff Elementalist / Weaver is now the type of class you use every cooldown on - there are many skills simply not worth the time it
+			takes to cast them simply because Fireball is just that strong. <br>
 
 			<br> When out of combat and chasing the tag, try to stay in
 
@@ -476,18 +506,20 @@
 			<br> Some general positioning advice:<br>
 
 			<ul>
-				<li>Following the commander tag is not always going to be in your best interest. If you're trying to follow my example in the videos <em>(which I will probably maybe eventually post)</em> or while in WvW, you'll notice that I stray off of the path quite a bit to try and find a good spot to avoid attention... or to draw attention and then quickly throw myself back into the blob. Play with self-preservation in mind, but not to the point where you're running away from fights.</li>
+				<li>Following the commander tag is not always going to be in your best interest. If you're trying to follow my example in the videos <em>(which I will probably maybe eventually post)</em> or while in WvW, you'll notice that I stray off of the path quite
+					a bit to try and find a good spot to avoid attention... or to draw attention and then quickly throw myself back into the blob. Play with self-preservation in mind, but not to the point where you're running away from fights.</li>
 				<li>Staying in
 
 					<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
 					</div>
 
-					 for your primary isn't only good for damage - being able to swap into it as your secondary gives you access to
+					for your primary isn't only good for damage - being able to swap into it as your secondary gives you access to
 
 					<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5680" data-armory-inline-text="wiki">
- 					</div>
+					</div>
 
-					which gives you evasion frames and quickly repositions you regardless of slowing effects. To use this to its full potential as a repositioning tool, I highly recommend setting a key binding for "About Face" in Settings > Options > Control Options - It's at the bottom of the Movement option list.</li>
+					which gives you evasion frames and quickly repositions you regardless of slowing effects. To use this to its full potential as a repositioning tool, I highly recommend setting a key binding for "About Face" in Settings > Options > Control Options - It's
+					at the bottom of the Movement option list.</li>
 				<li>You can use
 
 					<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5536" data-armory-inline-text="wiki">
@@ -498,31 +530,542 @@
 					<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5501" data-armory-inline-text="wiki">
 					</div>
 
-					to quickly snap yourself back into a good spot. This is entirely a judgement call - you have to decide when and if you should use it and where you need to move yourself. Sometimes it is going to be while casting meatballs to put yourself back on the commander tag, sometimes it's going to be to chase and throw down lines, sometimes it's going to be to retreat to a better location to cast from.</li>
-			</ul>
+					to quickly snap yourself back into a good spot. This is entirely a judgement call - you have to decide when and if you should use it and where you need to move yourself. Sometimes it is going to be while casting meatballs to put yourself back on the commander
+					tag, sometimes it's going to be to chase and throw down lines, sometimes it's going to be to retreat to a better location to cast from.</li>
+			</ul><br> As a final note: You will not have your own <b><a href="https://wiki.guildwars2.com/wiki/Stability">Stability</a></b> with this setup. If you need it, look into slotting
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5639" data-armory-inline-text="wiki">
+			</div>
+
+			. Otherwise, you will be relying on
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="45746" data-armory-inline-text="wiki">
+			</div>
+
+			to stun break. In general, you will want to reserve at least one charge in case of emergency and one for mobility.
 
 		</div>
 
 		<h2>Videos</h2>
 		<div class="tabcontent_content">
-			<!-- START OF TEXT SECTION  -->
-				<!--
+			<!--
 				<div class="videoWrapper">
 
 				</div>
 				-->
 
-				<div class="tabcontent_content_text">
-			Nothing to see here!.
+			<div class="tabcontent_content_text">
+				Nothing to see here!.
 			</div>
 		</div>
+		<h2><a href="#top">Go to top</a></h2>
 	</div>
 
 	<div id="PickBuild" class="tabcontent">
+		<img src="assets/class_icons/spec_Air.png"><img src="assets/class_icons/spec_Arcane.png"><img src="assets/class_icons/spec_Weaver.png">
 		<p>
-			</em>This is the standard Scepter/Focus pick build.</em><br><br>
-			<em>I also haven't written it yet :V</em></p>
+			</em>This is the Scepter / Focus pick build.</em><br></p>
+		<h2>Gear</h2>
+		<div class="tabcontent_content">
+			<div class="center">
+				<asideleft>
+					<div data-armory-embed="items" data-armory-ids="75269,74516">
+					</div>
+					<div data-armory-embed="items" data-armory-ids="75940,76671,71968,74518,75183,72251">
+					</div>
+				</asideleft>
+				<asideright>
+					<div data-armory-embed="items" data-armory-ids="81462,80002,80002" data-armory-81462-stat="584" data-armory-80002-stat="584" data-armory-80002-stat="584">
+					</div>
+					<div data-armory-embed="items" data-armory-ids="79980,80793,80793" data-armory-79980-stat="584" data-armory-80793-stat="584" data-armory-80793-stat="584">
+					</div>
+					<div data-armory-embed="items" data-armory-ids="37131">
+					</div>
+				</asideright>
+			</div>
+			<div class="tabcontent_content_text">
+				For all intents and purposes, we're going to stick closely to same glassy build as we're using for the Staff Weaver. The important distinction here is that the additional Precision from <span style="color:#e6ac00"><b>Marauder</b></span> will allow
+				you to reach the 100% cap easier, though <span style="color:#e6ac00"><b>Berserker</b></span> is more than enough to reliably proc crits <em> and</em> will hit harder with increased Ferocity stat weight. <span style="color:#e6ac00"><b>Assassin</b></span>				stats are an option to increase your Precision as well, but I would not advise a full set.<br>
+				<br> I'm using a <span style="color:#e6ac00"><b>Berserker</b></span> set of weapons for my build:
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="46769" data-armory-inline-text="wiki">
+				</div>
+
+				/
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="46761" data-armory-inline-text="wiki">
+				</div>
+
+				. You can make pretty much any power + precision weapon work.<br>
+				<br>
+				<em>Disclaimer: I have not actually done the math to see what has the best damage potential. This build is mostly trying to make do with the Staff Weaver build for quick adjustment into pick fights.</em>
+
+			</div>
+		</div>
+
+		<h2>Runes & Sigils</h2>
+		<div class="tabcontent_content">
+			<div class="center">
+				<asideleft>
+					<div data-armory-embed="items" data-armory-ids="24714">
+					</div>
+					<div data-armory-embed="items" data-armory-ids="24836,24702">
+					</div>
+				</asideleft>
+				<asideright>
+					<div data-armory-embed="items" data-armory-ids="24554">
+					</div>
+					<div data-armory-embed="items" data-armory-ids="24615,24548,24562">
+					</div>
+				</asideright>
+			</div>
+			<div class="tabcontent_content_text">
+				<b>For Runes:</b> You will be able to supply yourself with <b><a href="https://wiki.guildwars2.com/wiki/Might">Might</a></b> to make use of the damage bonus from
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="24714" data-armory-inline-text="wiki">
+				</div>
+
+				via
+
+				<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="268" data-armory-inline-text="wiki">
+				</div>
+
+				from the <b><a href="https://wiki.guildwars2.com/wiki/Arcane_(specialization)">Arcane Specialization</a></b>. Plus you can totally just use your normal Staff Weaver armor if you do this :V<br>
+				<br>
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="24836" data-armory-inline-text="wiki">
+				</div>
+
+				will give you better burst damage for sure thanks to the +Ferocity and initial 10% bonus damage and
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="24702" data-armory-inline-text="wiki">
+				</div>
+
+				can help you push the Precision threshold and supply some boons. Beyond that I'm not sold on the other rune options. There aren't many 6-piece bonuses worth using with stats which make them worth using for this build.
+				<br>
+				<br>
+				<b>For Sigils:</b> The key requirement here is to use
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="24836" data-armory-inline-text="wiki">
+				</div>
+
+				as a means to enhance your burst. It can proc off of any crit - skill or trait - and has a short 3 second ICD. I usually supplement this with
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="24615" data-armory-inline-text="wiki">
+				</div>
+
+				to enhance the core damage output, though
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="24548" data-armory-inline-text="wiki">
+				</div>
+
+				is an excellent burst damage option. Personally I wouldn't use
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="24562" data-armory-inline-text="wiki">
+				</div>
+
+				, but with a 1 second ICD <em>and</em> combined with
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="24714" data-armory-inline-text="wiki">
+				</div>
+
+				you can quickly stack up to improve your damage output. Probably better for targets you need more time for.
+
+			</div>
+		</div>
+
+		<h2>Skill Bar</h2>
+		<div class="tabcontent_content">
+			<div class="center">
+				<div data-armory-embed="skills" data-armory-ids="5503,5539,5638,5536,5516">
+				</div>
+			</div>
+			<div class="tabcontent_content_text">
+				<b>Healing Skill:</b>All of your healing spells are technically viable (aside from
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="44239" data-armory-inline-text="wiki">
+				</div>
+
+				):
+				<ul>
+					<li>
+						<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5503" data-armory-inline-text="wiki">
+						</div>
+
+						passively heals you as you attack to help keep you topped off against <b><a href="https://wiki.guildwars2.com/wiki/Retaliation">Retalliation</a></b> and patch healing in general, though the active is very weak.</li>
+					<li>
+						<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5569" data-armory-inline-text="wiki">
+						</div>
+
+						is a strong active heal which can supply boons on demand.</li>
+					<li>
+						<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="21656" data-armory-inline-text="wiki">
+						</div>
+
+						is another source of damage and has a blast finisher which can be useful on occasion. It also benefits from
+
+						<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="263" data-armory-inline-text="wiki">
+						</div>
+
+						if you opt for that in the <b><a href="https://wiki.guildwars2.com/wiki/Arcane_(specialization)">Arcane Specialization</a></b>.</li>
+					<li>
+						<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5507" data-armory-inline-text="wiki">
+						</div>
+
+						is a tool for condi clearing.</li>
+				</ul>
+				<b>Utility Skills:</b> The key here is to have as much burst as you can
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5536" data-armory-inline-text="wiki">
+				</div>
+
+				is almost mandatory so that you can either surprise a target or quickly escape after killing.
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5539" data-armory-inline-text="wiki">
+				</div>
+
+				is your best single target burst option, regardless of trait choices.
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5638" data-armory-inline-text="wiki">
+				</div>
+
+				is AoE burst, but still quite effective against a single target either way. You may want to swap it out in favor of a defensive option such as
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5641" data-armory-inline-text="wiki">
+				</div>
+
+				to help survive when your target snaps back at you (and deal more damage if they pop it).
+
+				<br>
+				<br>
+				<b>Elite Skills:</b> Same issue as Staff Weaver: all of your other options are meh. You won't even use
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5516" data-armory-inline-text="wiki">
+				</div>
+
+				often with this build to damage enemies; it's just an escape tool via
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5697" data-armory-inline-text="wiki">
+				</div>
+
+				(#3) and
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5517" data-armory-inline-text="wiki">
+				</div>
+
+				(#4). You can use
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5517" data-armory-inline-text="wiki">
+				</div>
+
+				(#5) in situations where some extra aoe damage is helpful, but you will <em>(or should)</em> never be on cooldown for longer than it takes to cast
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5516" data-armory-inline-text="wiki">
+				</div>
+
+				in the first place.
+			</div>
+		</div>
+
+		<h2>Specs</h2>
+		<div class="tabcontent_content">
+			<div class="gw2a-specs">
+				<div data-armory-embed="specializations" data-armory-ids="41" data-armory-41-traits="224,214,1503">
+				</div>
+			</div>
+			<div class="tabcontent_content_text">
+				<b>Air:</b> This is the core of your build. You can opt to trade
+				<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="224" data-armory-inline-text="wiki">
+				</div>
+
+				with
+
+				<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="232" data-armory-inline-text="wiki">
+				</div>
+
+				to get a bit more damage if <b><a href="https://wiki.guildwars2.com/wiki/Superspeed">Superspeed</a></b> doesn't appeal to you.<br>
+				<br>
+
+				<div class="gw2a-specs">
+					<div data-armory-embed="specializations" data-armory-ids="37,56" data-armory-37-traits="266,257,1511" data-armory-56-traits="2115,2061,2131">
+					</div>
+				</div>
+				<br>
+				<b>Arcane:</b> There is a lot of flexibility with your trait choices. <br>
+				<ul>
+					<li>Adept:
+						<ul>
+							<li>
+								<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="253" data-armory-inline-text="wiki">
+								</div>
+
+								can allow you to stack on <b><a href="https://wiki.guildwars2.com/wiki/Weakness">Weakness</a></b> to reduce enemy damage and mobility as well as enhancing your own critical hit chance when combined with
+
+								<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="2177" data-armory-inline-text="wiki">
+								</div>
+
+								from the weaver trait line.</li>
+
+							<li>
+								<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="266" data-armory-inline-text="wiki">
+								</div>
+
+								will apply <b><a href="https://wiki.guildwars2.com/wiki/Vigor">Vigor</a></b> to you on critical hit which will further enhance your damage when used with
+
+									<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="1511" data-armory-inline-text="wiki">
+									</div>
+
+									. The endurange regeneration can be handy, though you're not really going to rely on it in these short burst attacks.</li>
+								<li>
+									<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="1487" data-armory-inline-text="wiki">
+									</div>
+
+									offers some sustain through healing as you rapidly swap attunements.</li>
+						</ul>
+						</li>
+					<li>Master:
+						<ul>
+							<li>
+								<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="257" data-armory-inline-text="wiki">
+								</div>
+
+								is your only real choice here. You're not going to be reviving allies and you're not going to reliably take hits, so the other options are moot.</li>
+						</ul>
+					</li>
+					<li>Grandmaster:
+						<ul>
+							<li>
+								<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="263" data-armory-inline-text="wiki">
+								</div>
+
+								All of the effects from this are useful, though you will primarily be using it for the extra Ferocity and partially for the reduced cooldowns on
+
+								<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5539" data-armory-inline-text="wiki">
+								</div>
+
+								,
+
+								<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5638" data-armory-inline-text="wiki">
+								</div>
+
+								, and
+
+								<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="257" data-armory-inline-text="wiki">
+								</div>
+
+								(to an extent). Be mindful of which attunement you are in if you are going for a certain debuff.
+							</li>
+							<li>
+								<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="1511" data-armory-inline-text="wiki">
+								</div>
+
+								simply gives you more damage per boon. In a solo scenario, you should be able to reliably maintain 3-4 boons on yourselff with the template/default build: <b><a href="https://wiki.guildwars2.com/wiki/Fury">Fury</a></b>, <b><a href="https://wiki.guildwars2.com/wiki/Might">Might</a></b>, <b><a href="https://wiki.guildwars2.com/wiki/Swiftness">Swiftness</a></b>, and <b><a href="https://wiki.guildwars2.com/wiki/Vigor"></a>Vigor</b>. 8% damage for free!
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<b>Weaver:</b> The default build has
+
+				<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="2115" data-armory-inline-text="wiki">
+				</div>
+
+				 to give you a chunk of health, but you can swap it in favor of
+
+				 <div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="2177" data-armory-inline-text="wiki">
+				 </div>
+
+				 for more damage. You will reliably be able to apply <b><a href="https://wiki.guildwars2.com/wiki/Weakness">Weakness</a></b> if you're using
+
+				 <div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="253" data-armory-inline-text="wiki">
+				 </div>
+
+				from the Arcane trait line, but otherwise you will only really benefit from it with
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="43576" data-armory-inline-text="wiki">
+				</div>
+
+				when it comes to dual attunement skills.<br>
+				<br>
+				The reason Weaver is being used is primarily for the damage bonuses from
+
+				<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="2061" data-armory-inline-text="wiki">
+				</div>
+
+				and
+
+				<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="2131" data-armory-inline-text="wiki">
+				</div>
+
+				- and some of the dual attunement attacks are useful. However, a significant drawback to this build is that is harder to access the defensive tools avilable through the Focus skills quickly, such as
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5521" data-armory-inline-text="wiki">
+				</div>
+
+				. If you want a more roaming-oriented build which trades off some damage for sustain, you can consider Water.
+
+				<div class="gw2a-specs">
+					<div data-armory-embed="specializations" data-armory-ids="17" data-armory-17-traits="348,349,362">
+					</div>
+				</div>
+				<br>
+				<b>Water:</b> This is more about giving yourself access to attunement full bars on demand than anything else. The condi clearing is helpful, the extra damage (above 90% hp) is helpful, the damage reduction is helpful. Lower potential damage than Weaver, but still viable. If you choose to use water, I strongly recommend switching out Weaver.
+			</div>
+		</div>
+
+		<h2>Consumables</h2>
+		<div class="tabcontent_content">
+			<div class="center">
+				<div data-armory-embed="items" data-armory-ids="41569,9443">
+				</div>
+			</div>
+			<div class="tabcontent_content_text">
+				<b>Foods:</b> If you really want to min/max,
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="41569" data-armory-inline-text="wiki">
+				</div>
+
+				is the clear winner. You should be at or near 100% critical chance before food and oils come into play. Otherwise, any food with +power or +ferocity will be great.
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="81660" data-armory-inline-text="wiki">
+				</div>
+
+				offers some survivability and power which can be useful.
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="66536" data-armory-inline-text="wiki">
+				</div>
+
+				might be interesting to play around with, too. Otherwise, you can use the
+
+				<div class="gw2a-embed" data-armory-embed="items" data-armory-size="20" data-armory-ids="77630" data-armory-inline-text="wiki">
+				</div>
+
+				from the Staff Weaver build.
+				<br>
+				<br>
+				<b>Oils:</b> There are a lot of equivalent options, but stil to enhancing your Power stat.
+			</div>
+		</div>
+
+		<h2>General Play</h2>
+		<div class="tabcontent_content">
+			<b>NOTE: THIS IS NOT A ROAMING BUILD!</b><br> This is a build for popping in, bursting your target down, and then moving on. You will not have the tools to survive longer fights, escape duels gone wrong, or deal with people targeting you in general. The Fresh Air Weaver is a very complex build and doing well with it directly correlates to how well you understand how all of your skills and traits work together.<br>
+			<br>
+			Enabling Snap Ground Targeting in your settings can help significantly in reducing the time between attacks with this build. A couple of milliseconds can make a massive difference with this setup. <br>
+			<br>
+			The primary source of your damage will be coming from
+
+			<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="222" data-armory-inline-text="wiki">
+			</div>
+
+			every time you swap into
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5494">
+			</div>
+
+			while in combat and have a target selected. The key to making this build work is how often you can proc this by cycling attunements. After that,
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5561" data-armory-inline-text="wiki">
+			</div>
+
+			(Air #2),
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5539" data-armory-inline-text="wiki">
+			</div>
+
+			, and potentially
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5638" data-armory-inline-text="wiki">
+			</div>
+
+			will be the cooldowns you want to cycle for.<br>
+			<br>
+			Before swapping out of primary
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5494">
+			</div>
+
+			make sure you are channeling
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5526" data-armory-inline-text="wiki">
+			</div>
+
+			(Air #1). It's a great way to secure crits and take advantage of
+
+			<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="1503" data-armory-inline-text="wiki">
+			</div>
+
+			to get quickly back into
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5494">
+			</div>
+
+			. Try to make use of
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="43576" data-armory-inline-text="wiki">
+			</div>
+
+			if or when you're stuck in
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
+			</div>
+
+			and need to proc
+
+			<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="1503" data-armory-inline-text="wiki">
+			</div>
+
+			. It's usually fine to just use this for damage in general.<br>
+			<br>
+			A solid opener is to start off in
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5495">
+			</div>
+
+			/
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5494">
+			</div>
+
+			to give yourself
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5695">
+			</div>
+
+			for some extra defense and have access to
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="40794">
+			</div>
+
+			and
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5562">
+			</div>
+
+			for CC. Transition into
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5491">
+			</div>
+
+			/
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5494">
+			</div>
+
+			for a quick
+
+			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5692">
+			</div>
+
+			on the CC'd target. After that, you start your
+
+			<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="1503">
+			</div>
+
+			juggling.
+		</div>
+		<h2><a href="#top">Go to top</a></h2>
 	</div>
+
 	<!--end of main body-->
 	<script src="assets/js/tabs.js"></script>
 	<script async src="https://unpkg.com/armory-embeds@^0.4.0/armory-embeds.js"></script>

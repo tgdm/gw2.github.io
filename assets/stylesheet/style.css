@@ -126,11 +126,11 @@ body {
 /* style each tab content manually */
 
 #StandardStaff {
-  background-color: #3b8ebe;
+  background: linear-gradient(rgba(59, 142, 190, 1), rgba(59, 142, 190, 0.5));
 }
 
 #PickBuild {
-  background-color: #e84a7c;
+  background: linear-gradient(rgba(232, 74, 124, 1), rgba(232, 74, 124, 0.5));
 }
 
 asideleft {
